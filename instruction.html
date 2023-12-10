@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Square</title>
+    
+    <link rel="stylesheet" href="instruction.css">
+</head>
+<body>
+    <!-- Instruction -->
+    <h1>Instructions</h1>
+    <br>
+    <!-- Instructions about game. -->
+    <strong>
+        *The Game contains 4 x 4 grids.
+        <br>
+*The user’s score starts at zero, and is increased whenever two tiles combine by the same value of new tile.
+<br>
+*You can play the game till all the tiles where filled with different values.
+<br>
+*You can score high and bet with your friends to score higher than you.
+<br>
+*By playing this game you can develop your Math skills.
+<br>
+*You can view your high score below the Game title.
+<br>
+*For combining tiles you can use top arrow, left arrow, down arrow, right arrow.
+    </strong>
+    <!-- Previous and next button -->
+    <a href="Front.html" class="previous">Previous</a>
+<a href="Summary.html" class="next">Next </a>
+
+    <!-- Audio toggle button -->
+       <button id="audioToggle">Music On/Off</button>
+
+       <audio id="gameAudio" loop>
+           <source src="Faded---(Slowed-Remix)(PagalWorlld.Com).mp3" type="audio/mp3">
+       </audio>
+       <audio id="gameAudio" loop volume="0.5">
+           <source src="Faded---(Slowed-Remix)(PagalWorlld.Com).mp3" type="audio/mp3">
+       </audio>
+
+   <!-- Font Imported. -->
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+  </style>
+</body>
+<!-- Script inserted. -->
+<script src="instruction.js"></script>
+</html>

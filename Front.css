@@ -1,0 +1,88 @@
+/* body */
+body{
+    background-image: url(MUHAMMAD\ THALHA\ PUZZLE.mp4);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Video insertion:.... */
+#myVideo {
+    position: fixed;
+    bottom: -4px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+/* Start button */
+.button1{
+    position: absolute;
+    font-family: Nico Moji;
+    left: 760px;
+    top: 500px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: #FA0707;
+    animation: mymove 1s infinite;
+    box-shadow: 10px 10px red;
+}
+@keyframes mymove {
+    50% {box-shadow: 20px 20px 30px red;}
+  }
+
+/* audio button  */
+#audioToggle{
+    position: absolute;
+    font-family: New Rocker;
+    left: 1400px;
+    top: 20px;
+    background-color: red;
+}
+/* responsive design for moblie version */
+   @media only screen and (max-width: 800px) {
+    body {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+/* music button */
+    #audioToggle {
+        left: 100px; 
+    }
+
+    /* Music button */
+    .button1{
+        position: absolute;
+        font-family: Nico Moji;
+        left: 200px;
+        top: 350px;
+        width: 100px;
+        height: 40px;
+        color: black;
+        background-color: #FA0707;
+        animation: mymove 5s infinite;
+    }
+
+    @keyframes mymove {
+        50% {box-shadow: 20px 20px 30px red;}
+      }
+
+    #myVideo {
+        position: fixed;
+        bottom: 1px;
+        right: 50px;
+        min-width: 50%;
+        min-height: 50%;
+      }
+    
+}
+
